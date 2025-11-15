@@ -1,3 +1,5 @@
+#[GUIDE] HOW TO SET UP AND USE THE DNS METHOD
+
 ##**0. Intro**
 
 
