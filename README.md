@@ -8,7 +8,7 @@ I recently bought a paid certificate but I decided to make this guide public in 
 
 > ### Downsides:
 
-- Some apps may not work properly or at all (X app in my case didn’t let me login saying I was offline, ChatGPT didn’t load results from my prompts)
+- Some apps may not work properly or at all (X app in my case didn’t let me login saying I was offline)
 - Extensions mostly don’t work because some entitlements are missing in this type of certificates
 - VPNs can only be used if set in a certain way and can be tricky to set up and keep it working. 
 
