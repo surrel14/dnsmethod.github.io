@@ -3,7 +3,7 @@
 ## **0. Intro**
 
 
-I recently bought a paid certificate but I decided to make this guide public in case anyone needs to correctly set up and use the **DNS method**. This method **takes advantage of leaked enterprise certificates and uses a DNS to block Apple’s servers to check the validity status of these certificates**. 
+I recently bought a paid certificate but I decided to make this guide public in case anyone needs to set up and use the **DNS method**. This method **takes advantage of leaked enterprise certificates and uses a DNS to block Apple’s servers to check the validity status of these certificates**. 
 
 
 > ### Downsides:
