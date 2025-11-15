@@ -1,19 +1,19 @@
 # [GUIDE] HOW TO SET UP AND USE THE DNS METHOD
 
-## >**0. Intro**<
+## **0. Intro**
 
 
 I recently bought a paid certificate but I decided to make this guide public in case anyone needs to correctly set up and use the **DNS method**. This method **takes advantage of leaked enterprise certificates and uses a DNS to block Apple’s servers to check the validity status of these certificates**. 
 
 
-> ######Downsides:
+> ### Downsides:
 
 - Some apps may not work properly or at all (X app in my case didn’t let me login saying I was offline, ChatGPT didn’t load results from my prompts)
 - Extensions mostly don’t work because some entitlements are missing in this type of certificates
 - VPNs can only be used if set in a certain way and can be tricky to set up and keep it working. 
 
 
-> ######Upsides:
+> ### Upsides:
 
 - Notifications are working for some certificates (they need to have notifications entitlements, e.g. Tianjin Certificate does have it but Global Takeoff does not)
 - Apps are properly installed
@@ -28,7 +28,7 @@ There are downsides and limitations on both DNS method and Sidestore+LiveContain
 
 As far as I could see there are not many step by step guides about this method so I hope this can be useful to anyone. 
 
-##**1. Set up NextDNS**
+## **1. Set up NextDNS**
 
 
 1. Open Safari and go to _[https://my.nextdns.io/](https://my.nextdns.io)_
@@ -72,7 +72,7 @@ This last domain ( **_ppq.apple.com_**) will need to be used wisely but we will 
 
 
 
-##**2. Install Ksign/Esign**
+## **2. Install Ksign/Esign**
 
 
 
@@ -102,7 +102,7 @@ Now that our DNS is set up we need to install Ksign or Esign using a leaked ente
 11. Go back to NextDNS settings in Safari and turn back on _ppq.apple.com_ then turn off your data/wifi for some seconds and then turn it on
 
 
-##**3. Set up Ksign/Esign**
+## **3. Set up Ksign/Esign**
 
 
 At this point we have the DNS set up and Ksign/Esign installed. Let’s say that the hard part is over. Now we will have to add the certificate file to our Ksign/Esign app:
@@ -112,7 +112,7 @@ At this point we have the DNS set up and Ksign/Esign installed. Let’s say that
 2. If you have KSign open it and go to _Settings>Certificates>Import KSign File_ and click on the _+_ in the top right corner. If you have Esign open it and go to _Settings>Import Resource_. Go to the directory where you previously unzipped the _.zip_ file and open the unzipped  folder. There will be two folders inside: _KsignCert_ and _EsignCert_. Open the folder that match with your installer (KSign/Esign) and select the certificate with the same name of the certificate that you previously trusted in the _Settings_ app under _General>VPN & Management_. If you have Esign a prompt  will pop up asking if you want to import certificate management, select _Import_ 
 
 
-##**4. Install apps with Ksign/Esign**
+## **4. Install apps with Ksign/Esign**
 
 Now we can finally start to install apps through Ksign/Esign:
 
@@ -134,7 +134,7 @@ Now we can finally start to install apps through Ksign/Esign:
 IMPORTANT: Everytime you install an app _ppq.apple.com_ must be toggled off in the NextDNS settings. In the same way when the app has been installed toggle it on again. Everytime you turn _ppq.apple.com_ on data/wifi must be turned off for some seconds and then turned on again.
 
 
-##**5. (Optional) Install and set up Feather**
+## **5. (Optional) Install and set up Feather**
 
 For the ones, like me, that prefers Feather over Ksign/Esign here’s how to install it and set it up:
 
@@ -151,7 +151,7 @@ For the ones, like me, that prefers Feather over Ksign/Esign here’s how to ins
 6. To install apps go to the _Library_ tab, click on the _+_ in the top right corner then _Import from Files_. Import your app, sign it and install it. Always remember to **turn off/on _ppq.apple.com_ and data/wifi evertime you’re installing an app**
 
 
-###Optional (needed if you want ChatGPT working):
+### Optional (needed if you want ChatGPT working):
 - Go to the _Whitelist_ section in your NextDNS settings in Safari and add this domains:
 
 >
