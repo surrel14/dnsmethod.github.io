@@ -141,7 +141,7 @@ For the ones, like me, that prefers Feather over Ksign/Esign here’s how to ins
 
 1. Open [this link](https://raw.githubusercontent.com/WhySooooFurious/Ultimate-Sideloading-Guide/refs/heads/main/raw-files/certificates.zip), download the _.zip_ file and save it somewhere in the _Files_ app
 
-2. Open _Files_ app to the directory of the _.zip_ file, simply click on it, it will unzip it (it’ll be called _certificates)
+2. Open _Files_ app to the directory of the _.zip_ file, simply click on it, it will unzip it (it’ll be called _certificates_)
 
 3. Download _Feather .ipa_ from the official GitHub and import it in Ksign/Esign and install it like you would install any other app
 
