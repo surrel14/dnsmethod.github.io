@@ -157,7 +157,7 @@ For the ones, like me, that prefers Feather over Ksign/Esign here’s how to ins
 
 >
 
-- _register.appatest.apple.com_
+- _register.appattest.apple.com_
 
 >
 
