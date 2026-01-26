@@ -139,7 +139,7 @@ IMPORTANT: Everytime you install an app _ppq.apple.com_ must be toggled off in t
 
 For the ones, like me, that prefers Feather over Ksign/Esign here’s how to install it and set it up:
 
-1. Open [this link](https://raw.githubusercontent.com/WhySooooFurious/Ultimate-Sideloading-Guide/refs/heads/main/raw-files/certificates.zip), download the _.zip_ file and save it somewhere in the _Files_ app
+1. Open [this link](https://raw.githubusercontent.com/WSF-Team/WSF/refs/heads/main/portal/resources/certificates.zip), download the _.zip_ file and save it somewhere in the _Files_ app
 
 2. Open _Files_ app to the directory of the _.zip_ file, simply click on it, it will unzip it (it’ll be called _certificates_)
 
